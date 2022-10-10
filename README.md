@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="ADD_DEPLOY_LINK_HERE">
+  <a href="https://ireneburresi-videogames-sales-analysis-app-755m1w.streamlitapp.com">
     <img src="./assets/logo_joystick.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -12,7 +12,7 @@
   <p align="center">
    An in depth analysis of videogames sales all over the world plus a ML powered sales predictor
     <br />
-    <a href="ADD_DEPLOY_LINK_HERE"><strong> View demo »</strong></a>
+    <a href="https://ireneburresi-videogames-sales-analysis-app-755m1w.streamlitapp.com"><strong> View demo »</strong></a>
     <br />
     <br />
     <a href="#about-this-project">About this project</a>
@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About this project
 
-[![Videogame sales][screen]](ADD_DEPLOY_LINK_HERE)
+[![Videogame sales][screen]](https://ireneburresi-videogames-sales-analysis-app-755m1w.streamlitapp.com)
 
 This project analyses a dataset regarding the sales of most of the videogames published since '70s. 
 
@@ -41,7 +41,7 @@ In the Jupyter Notebook the dataset is:
 
 Then 4 different ML models (one fro North America, one for Europe, one for Japan and one for all the other countries predictions) are trained with  an ensemble method.
 A Grid Search allows to choose te best models, that are then used to predct values on the web app.
-The web app is deployed using Streamlit (at ).
+The web app is deployed using Streamlit (at https://ireneburresi-videogames-sales-analysis-app-755m1w.streamlitapp.com).
 
 ### About Dataset
 The dataset contains a list of video games with sales greater than 100,000 copies. 
