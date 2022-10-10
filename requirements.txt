@@ -1,4 +1,6 @@
 Pillow
-streamlit
+streamlit~=1.13.0
 streamlit_option_menu
-scikit-learn == 1.0.2
+scikit-learn==1.0.2
+pandas~=1.5.0
+joblib~=1.2.0

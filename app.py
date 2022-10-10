@@ -6,17 +6,9 @@
 from pathlib import Path
 import streamlit as st
 from streamlit_option_menu import option_menu
-from PIL import Image
 import pandas as pd
 import joblib
-import time  # to simulate a real time data, time loop
-import plotly.express as px
-import numpy as np  # np mean, np random
-import plotly.express as px  # interactive charts
-from streamlit_echarts import st_echarts
-from pyecharts import options as opts
-from pyecharts.charts import Bar
-from streamlit_echarts import st_pyecharts
+
 
 # ============================================== PATH SETTINGS ==============================================
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
