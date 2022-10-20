@@ -10,6 +10,7 @@ import pandas as pd
 import pandas_profiling
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
+import streamlit.components.v1 as components
 import joblib
 
 
