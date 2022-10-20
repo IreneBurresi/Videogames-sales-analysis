@@ -77,7 +77,8 @@ clf_EU = joblib.load("./models/model_EU.pkl")
 clf_NA = joblib.load("./models/model_NA.pkl")
 clf_JP = joblib.load("./models/model_JP.pkl")
 clf_other = joblib.load("./models/model_other.pkl")
-
+HtmlFile = open("./pandas_profiling-2.html", 'r', encoding='utf-8')
+    source_code = HtmlFile.read()
 
 def get_data() -> pd.DataFrame:
     return pd.read_csv("./data/videogame_sales_cleaned.csv")
@@ -129,10 +130,7 @@ if selected == "Sales predictor":
 elif selected == "Data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
-    HtmlFile = open("./pandas_profiling-2.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read()
     st.write(source_code, unsafe_allow_html=True)
-    print(source_code)
     components.html(source_code)
 
 
