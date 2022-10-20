@@ -97,12 +97,6 @@ Powered by:
 [![Colab][Colab-shield]][Colab-url]
 
 </div>
-The dashboards are made in:
-<div align="center">
-
-[![Tableau][Tableau-shield]][Tableau-url]
-
-</div>
 
 Deployed with:
 <div align="center">
