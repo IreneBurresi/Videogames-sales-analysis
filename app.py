@@ -129,7 +129,7 @@ elif selected == "data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
     profile = ProfileReport(global_dataset)
-    profile
+    st_profile_report(profile)
     #pd_profile = global_dataset.profile_report()
     #st_profile_report(pd_profile)
 
