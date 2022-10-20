@@ -78,7 +78,7 @@ clf_NA = joblib.load("./models/model_NA.pkl")
 clf_JP = joblib.load("./models/model_JP.pkl")
 clf_other = joblib.load("./models/model_other.pkl")
 HtmlFile = open("./pandas_profiling-2.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read()
+source_code = HtmlFile.read()
 
 def get_data() -> pd.DataFrame:
     return pd.read_csv("./data/videogame_sales_cleaned.csv")
