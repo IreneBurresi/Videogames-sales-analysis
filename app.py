@@ -126,7 +126,7 @@ if selected == "Sales predictor":
         if (other_sales == True or global_sales == True):
             prediction_other = round(number=(clf_other.predict(features)[0] * 1000000))
             st.write("The videogame is estimed to sell " + str(prediction_other) + " copies in other countries")
-elif selected == "data Visualisation":
+elif selected == "Data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
     HtmlFile = open("./pandas_profiling-2.html", 'r', encoding='utf-8')
