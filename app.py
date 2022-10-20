@@ -125,8 +125,9 @@ if selected == "Sales predictor":
 elif selected == "data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
+
     pd_profile = open("./pandas_profiling-2.html", "r", encoding='utf-8')
-    st.write(pd_profile, unsafe_allow_html=True)
+    st_profile_report(pd_profile)
 
 
 
