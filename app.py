@@ -7,6 +7,7 @@ from pathlib import Path
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
+import pandas_profiling
 import joblib
 
 
@@ -126,7 +127,7 @@ elif selected == "data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
 
-    pd_profile = open("./pandas_profiling-2.html", "r", encoding='utf-8')
+    pd_profile = global_dataset.profile_report()
     st_profile_report(pd_profile)
 
 
