@@ -126,7 +126,7 @@ elif selected == "data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
     pd_profile = open("./pandas_profiling-2.html", "r", encoding='utf-8')
-    st.markdown(pd_profile, unsafe_allow_html=True)
+    st.write(pd_profile, unsafe_allow_html=True)
 
 
 
