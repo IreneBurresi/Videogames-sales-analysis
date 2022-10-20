@@ -131,7 +131,7 @@ elif selected == "Data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
     #st.write(source_code, unsafe_allow_html=True)
-    components.html(source_code)
+    components.html(source_code, height = 800)
 
 
 
