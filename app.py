@@ -129,7 +129,8 @@ elif selected == "data Visualisation":
     st.write("### Pandas Profile")
     st.write("---")
     HtmlFile = open("./pandas_profiling-2.html", 'r', encoding='utf-8')
-    source_code = HtmlFile.read() 
+    source_code = HtmlFile.read()
+    st.write(source_code, unsafe_allow_html=True)
     components.html(source_code)
 
 
