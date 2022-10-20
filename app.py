@@ -8,6 +8,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
 import pandas_profiling
+from streamlit_pandas_profiling import st_profile_report
 import joblib
 
 
